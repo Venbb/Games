@@ -1,0 +1,174 @@
+
+skeleton.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armdownL
+  rotate: false
+  xy: 600, 68
+  size: 21, 74
+  orig: 21, 74
+  offset: 0, 0
+  index: -1
+armdownR
+  rotate: true
+  xy: 133, 19
+  size: 41, 75
+  orig: 41, 75
+  offset: 0, 0
+  index: -1
+armupL
+  rotate: false
+  xy: 1007, 201
+  size: 15, 53
+  orig: 15, 53
+  offset: 0, 0
+  index: -1
+armupR
+  rotate: false
+  xy: 240, 95
+  size: 22, 60
+  orig: 22, 60
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 766, 126
+  size: 121, 128
+  orig: 121, 128
+  offset: 0, 0
+  index: -1
+canying
+  rotate: true
+  xy: 2, 62
+  size: 37, 231
+  orig: 37, 231
+  offset: 0, 0
+  index: -1
+diguang
+  rotate: false
+  xy: 628, 119
+  size: 136, 135
+  orig: 136, 135
+  offset: 0, 0
+  index: -1
+footL
+  rotate: false
+  xy: 688, 67
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+footR
+  rotate: true
+  xy: 58, 13
+  size: 47, 73
+  orig: 47, 73
+  offset: 0, 0
+  index: -1
+gong
+  rotate: true
+  xy: 2, 157
+  size: 97, 268
+  orig: 97, 268
+  offset: 0, 0
+  index: -1
+guang1
+  rotate: true
+  xy: 394, 16
+  size: 73, 52
+  orig: 73, 52
+  offset: 0, 0
+  index: -1
+guang2
+  rotate: false
+  xy: 235, 2
+  size: 157, 87
+  orig: 157, 87
+  offset: 0, 0
+  index: -1
+guang3
+  rotate: false
+  xy: 462, 144
+  size: 164, 110
+  orig: 164, 110
+  offset: 0, 0
+  index: -1
+handL
+  rotate: false
+  xy: 623, 58
+  size: 63, 59
+  orig: 63, 59
+  offset: 0, 0
+  index: -1
+handR
+  rotate: true
+  xy: 952, 88
+  size: 48, 57
+  orig: 48, 57
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 889, 138
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+jian
+  rotate: true
+  xy: 2, 101
+  size: 54, 236
+  orig: 54, 236
+  offset: 0, 0
+  index: -1
+legdownL
+  rotate: false
+  xy: 210, 19
+  size: 22, 41
+  orig: 22, 41
+  offset: 0, 0
+  index: -1
+legdownR
+  rotate: true
+  xy: 507, 19
+  size: 19, 46
+  orig: 19, 46
+  offset: 0, 0
+  index: -1
+legupL
+  rotate: true
+  xy: 889, 114
+  size: 22, 61
+  orig: 22, 61
+  offset: 0, 0
+  index: -1
+legupR
+  rotate: true
+  xy: 448, 6
+  size: 32, 57
+  orig: 32, 57
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: true
+  xy: 462, 40
+  size: 102, 136
+  orig: 102, 136
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 2, 2
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 272, 91
+  size: 163, 188
+  orig: 163, 188
+  offset: 0, 0
+  index: -1

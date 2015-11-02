@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 8192,8192
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_down
+  rotate: false
+  xy: 2, 5033
+  size: 4557, 1807
+  orig: 4557, 1807
+  offset: 0, 0
+  index: -1
+bg_front
+  rotate: false
+  xy: 2, 2145
+  size: 4557, 1200
+  orig: 4557, 1200
+  offset: 0, 0
+  index: -1
+bg_right
+  rotate: false
+  xy: 2, 883
+  size: 1766, 1260
+  orig: 1766, 1260
+  offset: 0, 0
+  index: -1
+bg_sky
+  rotate: true
+  xy: 4561, 2283
+  size: 4557, 802
+  orig: 4557, 802
+  offset: 0, 0
+  index: -1
+bg_uppng
+  rotate: false
+  xy: 2, 3347
+  size: 4557, 1684
+  orig: 4557, 1684
+  offset: 0, 0
+  index: -1
+blue
+  rotate: false
+  xy: 676, 464
+  size: 267, 417
+  orig: 267, 417
+  offset: 0, 0
+  index: -1
+stone1
+  rotate: false
+  xy: 5365, 5884
+  size: 408, 500
+  orig: 408, 500
+  offset: 0, 0
+  index: -1
+stone2
+  rotate: false
+  xy: 2, 2
+  size: 401, 391
+  orig: 401, 391
+  offset: 0, 0
+  index: -1
+stone3
+  rotate: true
+  xy: 6691, 6412
+  size: 428, 461
+  orig: 428, 461
+  offset: 0, 0
+  index: -1
+stone4
+  rotate: false
+  xy: 1770, 1695
+  size: 495, 448
+  orig: 495, 448
+  offset: 0, 0
+  index: -1
+tree
+  rotate: false
+  xy: 5365, 6386
+  size: 1324, 454
+  orig: 1324, 454
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 2, 395
+  size: 672, 486
+  orig: 672, 486
+  offset: 0, 0
+  index: -1

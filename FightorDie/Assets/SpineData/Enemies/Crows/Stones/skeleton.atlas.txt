@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+diguang
+  rotate: false
+  xy: 349, 103
+  size: 136, 135
+  orig: 136, 135
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 86, 69
+  orig: 86, 69
+  offset: 0, 0
+  index: -1
+shouti
+  rotate: false
+  xy: 202, 100
+  size: 145, 138
+  orig: 145, 138
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 2, 73
+  size: 198, 165
+  orig: 198, 165
+  offset: 0, 0
+  index: -1
+stone1
+  rotate: true
+  xy: 747, 147
+  size: 91, 109
+  orig: 91, 109
+  offset: 0, 0
+  index: -1
+stone2
+  rotate: true
+  xy: 626, 148
+  size: 90, 119
+  orig: 90, 119
+  offset: 0, 0
+  index: -1
+stone3
+  rotate: false
+  xy: 487, 137
+  size: 137, 101
+  orig: 137, 101
+  offset: 0, 0
+  index: -1

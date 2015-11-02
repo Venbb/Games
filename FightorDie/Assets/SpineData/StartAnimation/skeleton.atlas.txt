@@ -1,0 +1,104 @@
+
+skeleton.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 454, 106
+  size: 71, 65
+  orig: 71, 65
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 1160, 201
+  size: 122, 76
+  orig: 122, 76
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 2
+  size: 313, 29
+  orig: 313, 29
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1404, 433
+  size: 524, 39
+  orig: 524, 39
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 173
+  size: 524, 104
+  orig: 524, 104
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 33
+  size: 422, 37
+  orig: 422, 37
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 528, 213
+  size: 452, 64
+  orig: 452, 64
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1404, 394
+  size: 452, 37
+  orig: 452, 37
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 2, 72
+  size: 450, 99
+  orig: 450, 99
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 528, 193
+  size: 300, 18
+  orig: 300, 18
+  offset: 0, 0
+  index: -1
+beijing
+  rotate: true
+  xy: 982, 181
+  size: 96, 176
+  orig: 96, 176
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 1404, 130
+  size: 262, 262
+  orig: 262, 262
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 1668, 156
+  size: 220, 236
+  orig: 220, 236
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 2, 279
+  size: 1400, 193
+  orig: 1400, 193
+  offset: 0, 0
+  index: -1

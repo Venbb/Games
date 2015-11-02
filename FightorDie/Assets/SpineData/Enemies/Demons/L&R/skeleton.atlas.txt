@@ -1,0 +1,111 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: false
+  xy: 305, 113
+  size: 82, 41
+  orig: 82, 41
+  offset: 0, 0
+  index: -1
+armR
+  rotate: false
+  xy: 790, 426
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 707, 423
+  size: 81, 69
+  orig: 81, 69
+  offset: 0, 0
+  index: -1
+canying1
+  rotate: false
+  xy: 2, 211
+  size: 457, 281
+  orig: 457, 281
+  offset: 0, 0
+  index: -1
+chibangL
+  rotate: true
+  xy: 2, 2
+  size: 67, 104
+  orig: 67, 104
+  offset: 0, 0
+  index: -1
+chibangR
+  rotate: false
+  xy: 599, 393
+  size: 106, 99
+  orig: 106, 99
+  offset: 0, 0
+  index: -1
+diguang
+  rotate: false
+  xy: 461, 357
+  size: 136, 135
+  orig: 136, 135
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 149, 96
+  size: 113, 154
+  orig: 113, 154
+  offset: 0, 0
+  index: -1
+hei
+  rotate: false
+  xy: 108, 39
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+legL
+  rotate: true
+  xy: 599, 360
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+legR
+  rotate: false
+  xy: 858, 438
+  size: 46, 54
+  orig: 46, 54
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 305, 156
+  size: 105, 53
+  orig: 105, 53
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 461, 249
+  size: 130, 106
+  orig: 130, 106
+  offset: 0, 0
+  index: -1
+shouti
+  rotate: false
+  xy: 2, 71
+  size: 145, 138
+  orig: 145, 138
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 461, 217
+  size: 72, 30
+  orig: 72, 30
+  offset: 0, 0
+  index: -1

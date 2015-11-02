@@ -1,0 +1,48 @@
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\Assembly-CSharp.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEditor.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEngine.Analytics.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEngine.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEngine.UI.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\Mono.Cecil.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\Unity.DataContract.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\Unity.CecilTools.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEngine.xml
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEditor.xml
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEngine.UI.xml
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\GameDevelop\Myproject\Fight or Die\Temp\bin\Debug\UnityEngine.Analytics.xml
+D:\GameDevelop\Myproject\Fight or Die\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\GameDevelop\Myproject\Fight or Die\obj\Debug\Assembly-CSharp.dll
+D:\GameDevelop\Myproject\Fight or Die\obj\Debug\Assembly-CSharp.pdb
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\Assembly-CSharp.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEditor.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEngine.Analytics.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEngine.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEngine.UI.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\Mono.Cecil.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\Unity.DataContract.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\Unity.CecilTools.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEngine.xml
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEditor.xml
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEngine.UI.xml
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\GameDevelop\Myproject\FightorDie\Temp\bin\Debug\UnityEngine.Analytics.xml
+D:\GameDevelop\Myproject\FightorDie\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\GameDevelop\Myproject\FightorDie\obj\Debug\Assembly-CSharp.dll
+D:\GameDevelop\Myproject\FightorDie\obj\Debug\Assembly-CSharp.pdb
