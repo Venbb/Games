@@ -1,0 +1,3560 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1966262787544824}
+  m_IsPrefabParent: 1
+--- !u!1 &1966262787544824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4137116633317914}
+  - component: {fileID: 114273061861391588}
+  m_Layer: 0
+  m_Name: DynamicDNAConverterBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4137116633317914
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1966262787544824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 118.23025, y: 34.766094, z: 161.86162}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114273061861391588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1966262787544824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2323fdffbbd0f51409581a5ae1bab046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dnaTypeHash: 0
+  DisplayValue: 
+  dnaAsset: {fileID: 11400000, guid: 4312f570369108346bd27c231c265938, type: 2}
+  hashList:
+  - hashName: nose_up
+    hash: 1751145829
+  - hashName: ear_02_r
+    hash: 2024626915
+  - hashName: ear_02_l
+    hash: -2103285888
+  - hashName: mouth
+    hash: -1631232873
+  - hashName: upmouth
+    hash: 1895401145
+  - hashName: lowmouth
+    hash: -782712734
+  - hashName: lipmouth_r
+    hash: 2004953386
+  - hashName: lipmouth_l
+    hash: -1920068535
+  - hashName: forehead
+    hash: -1613285586
+  - hashName: skull
+    hash: 1258405475
+  - hashName: eye_r
+    hash: 1291040886
+  - hashName: eye_l
+    hash: -1224964843
+  - hashName: 'nosewing_r '
+    hash: -542316944
+  - hashName: nosewing_l
+    hash: 963444425
+  - hashName: nasalnose
+    hash: -1917070985
+  - hashName: tipnose
+    hash: -220584236
+  - hashName: nose
+    hash: -2130940717
+  - hashName: loweye_r
+    hash: 57549955
+  - hashName: loweye_l
+    hash: -111076896
+  - hashName: upeye_r
+    hash: -1563467176
+  - hashName: upeye_l
+    hash: 1489002299
+  - hashName: endeye_r
+    hash: 1058292777
+  - hashName: endeye_l
+    hash: -988055222
+  - hashName: canthus_r
+    hash: -190801371
+  - hashName: canthus_l
+    hash: 246392646
+  - hashName: tailbrow_r
+    hash: -1551921017
+  - hashName: tailbrow_l
+    hash: 1500556772
+  - hashName: brow_r
+    hash: -968919978
+  - hashName: brow_l
+    hash: 1009797429
+  - hashName: cheekbone_r
+    hash: 794616263
+  - hashName: cheekbone_l
+    hash: -715924316
+  - hashName: chin
+    hash: 1344700888
+  - hashName: chin_03_r
+    hash: 1129635620
+  - hashName: chin_03_l
+    hash: -1185160633
+  - hashName: chin_02_r
+    hash: 1117173011
+  - hashName: chin_02_l
+    hash: -1197897616
+  - hashName: cheek_02_r
+    hash: -201849229
+  - hashName: cheek_02_l
+    hash: 167197456
+  - hashName: cheek_r
+    hash: 1494584951
+  - hashName: cheek_l
+    hash: -1558531308
+  skeletonModifiers:
+  - hashName: eye_r
+    hash: 1291040886
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyer
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: eyer
+          modifierValue: 18
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -18
+      max: 18
+      def: 0
+  - hashName: eye_l
+    hash: -1224964843
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyer
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: eyer
+          modifierValue: 18
+      min: -18
+      max: 18
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: nose
+    hash: -2130940717
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: nosesx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: nosesx
+          modifierValue: 0.6
+      min: 0.7
+      max: 1.3
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: nosesx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: nosesx
+          modifierValue: 0.6
+      min: 0.7
+      max: 1.3
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: nosesx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: nosesx
+          modifierValue: 0.6
+      min: 0.7
+      max: 1.3
+      def: 0
+  - hashName: nose
+    hash: -2130940717
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: noserx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -25
+      min: -25
+      max: 25
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -25
+      max: 25
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: nose
+    hash: -2130940717
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: nosepx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.008
+      min: -0.008
+      max: 0.008
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: nosepy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.007
+      min: -0.007
+      max: 0.007
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: cheekbone_l
+    hash: -715924316
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: cheekbone_l
+    hash: -715924316
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: cheekbone_l
+    hash: -715924316
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: cheekbone_r
+    hash: 794616263
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: cheekbone_r
+    hash: 794616263
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: cheekbone_r
+    hash: 794616263
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: chin_03_l
+    hash: -1185160633
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: chin_03_l
+    hash: -1185160633
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: chin_03_l
+    hash: -1185160633
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: chin_03_r
+    hash: 1129635620
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: chin_03_r
+    hash: 1129635620
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: chin_03_r
+    hash: 1129635620
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: chin_02_l
+    hash: -1197897616
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: chin_02_l
+    hash: -1197897616
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: chin_02_l
+    hash: -1197897616
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: chin_02_r
+    hash: 1117173011
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: chin_02_r
+    hash: 1117173011
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: chin_02_r
+    hash: 1117173011
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: 0
+      max: 0
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: cheek_02_l
+    hash: 167197456
+    property: 2
+    valuesX:
+      val:
+        value: -2
+        modifiers:
+        - modifier: 4
+          DNATypeName: cheek_02sx
+          modifierValue: 0.5
+        - modifier: 2
+          DNATypeName: cheek_02sx
+          modifierValue: 2
+      min: -3
+      max: -1
+      def: 0
+    valuesY:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: -1
+      def: 0
+    valuesZ:
+      val:
+        value: -2
+        modifiers:
+        - modifier: 4
+          DNATypeName: cheek_02sy
+          modifierValue: 0.5
+        - modifier: 2
+          DNATypeName: cheek_02sy
+          modifierValue: 2
+      min: -3
+      max: -1
+      def: 0
+  - hashName: cheek_02_l
+    hash: 167197456
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: cheek_02_l
+    hash: 167197456
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: cheek_02px
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.04151
+      min: -0.04151
+      max: 0.04151
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.17
+      max: 0.17
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: cheek_02py
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.04
+      min: -0.04
+      max: 0.04
+      def: 0
+  - hashName: cheek_02_r
+    hash: -201849229
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 0
+          DNATypeName: cheek_02sx
+          modifierValue: 0.5
+        - modifier: 4
+          DNATypeName: cheek_02sx
+          modifierValue: 2
+        - modifier: 2
+          DNATypeName: cheek_02sx
+          modifierValue: 2
+      min: 1
+      max: 3
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 0
+          DNATypeName: cheek_02sy
+          modifierValue: 0.5
+        - modifier: 4
+          DNATypeName: cheek_02sy
+          modifierValue: 2
+        - modifier: 2
+          DNATypeName: cheek_02sy
+          modifierValue: 2
+      min: 1
+      max: 3
+      def: 0
+  - hashName: cheek_02_r
+    hash: -201849229
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: cheek_02_r
+    hash: -201849229
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: cheek_02px
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.04151
+      min: -0.04151
+      max: 0.04151
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.17
+      max: 0.17
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: cheek_02py
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.04
+      min: -0.04
+      max: 0.04
+      def: 0
+  - hashName: cheek_l
+    hash: -1558531308
+    property: 2
+    valuesX:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
+      def: 0
+    valuesY:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
+      def: 0
+    valuesZ:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
+      def: 0
+  - hashName: cheek_l
+    hash: -1558531308
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: cheek_l
+    hash: -1558531308
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: cheek_r
+    hash: 1494584951
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: cheek_r
+    hash: 1494584951
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: cheek_r
+    hash: 1494584951
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: tailbrow_l
+    hash: 1500556772
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: tailbrowsx
+          modifierValue: 0
+        - modifier: 0
+          DNATypeName: tailbrowsx
+          modifierValue: 0.5
+      min: 1
+      max: 2
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: tailbrowsy
+          modifierValue: 0
+        - modifier: 0
+          DNATypeName: tailbrowsy
+          modifierValue: 0.5
+      min: 1
+      max: 2
+      def: 0
+  - hashName: tailbrow_l
+    hash: 1500556772
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: tailbrow_l
+    hash: 1500556772
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: tailbrowpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.015
+      min: -0.015
+      max: 0.015
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: tailbrowpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.010445
+      min: -0.1
+      max: 0.010445
+      def: 0
+  - hashName: tailbrow_r
+    hash: -1551921017
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: tailbrowsx
+          modifierValue: 0
+        - modifier: 0
+          DNATypeName: tailbrowsx
+          modifierValue: 0.5
+      min: 1
+      max: 2
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: tailbrowsy
+          modifierValue: 0
+        - modifier: 0
+          DNATypeName: tailbrowsy
+          modifierValue: 0.5
+      min: 1
+      max: 2
+      def: 0
+  - hashName: tailbrow_r
+    hash: -1551921017
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: tailbrow_r
+    hash: -1551921017
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: tailbrowpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.015
+      min: -0.015
+      max: 0.015
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: tailbrowpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.010445
+      min: -0.1
+      max: 0.010445
+      def: 0
+  - hashName: brow_l
+    hash: 1009797429
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: brow_l
+    hash: 1009797429
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: brow_l
+    hash: 1009797429
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: browpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.0125
+      min: -0.0125
+      max: 0.0125
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: browpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.0125
+      min: -0.0125
+      max: 0.0125
+      def: 0
+  - hashName: brow_r
+    hash: -968919978
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: brow_r
+    hash: -968919978
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: brow_r
+    hash: -968919978
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: browpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.0125
+      min: -0.0125
+      max: 0.0125
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: browpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.0125
+      min: -0.0125
+      max: 0.0125
+      def: 0
+  - hashName: forehead
+    hash: -1613285586
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: forehead
+    hash: -1613285586
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: forehead
+    hash: -1613285586
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: endeye_l
+    hash: -988055222
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: endeye_l
+    hash: -988055222
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: endeye_l
+    hash: -988055222
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: endeye_r
+    hash: 1058292777
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: endeye_r
+    hash: 1058292777
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: endeye_r
+    hash: 1058292777
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: canthus_l
+    hash: 246392646
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: canthus_l
+    hash: 246392646
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: canthus_l
+    hash: 246392646
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: canthus_r
+    hash: -190801371
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: canthus_r
+    hash: -190801371
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: canthus_r
+    hash: -190801371
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: loweye_l
+    hash: -111076896
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: loweye_l
+    hash: -111076896
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: loweyerx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 90
+      min: -90
+      max: 90
+      def: 0
+  - hashName: loweye_l
+    hash: -111076896
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: loweyepy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.011
+      min: -0.011
+      max: 0.011
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: loweyepx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.0075
+      min: -0.0075
+      max: 0.0075
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: loweye_r
+    hash: 57549955
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: loweye_r
+    hash: 57549955
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: loweyerx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 90
+      min: -90
+      max: 90
+      def: 0
+  - hashName: loweye_r
+    hash: 57549955
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: loweyepy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.011
+      min: -0.011
+      max: 0.011
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: loweyepx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.0075
+      min: -0.0075
+      max: 0.0075
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: upeye_l
+    hash: 1489002299
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: upeye_l
+    hash: 1489002299
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -80
+      max: 80
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -90
+      max: 90
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: upeyerx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -90
+      min: -90
+      max: 90
+      def: 0
+  - hashName: upeye_l
+    hash: 1489002299
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: upeyepy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.013
+      min: -0.013
+      max: 0.013
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: upeyepx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.0115
+      min: -0.0115
+      max: 0.0115
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.0115
+      max: 0.0115
+      def: 0
+  - hashName: upeye_r
+    hash: -1563467176
+    property: 2
+    valuesX:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
+      def: 0
+    valuesY:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
+      def: 0
+    valuesZ:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
+      def: 0
+  - hashName: upeye_r
+    hash: -1563467176
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -90
+      max: 90
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: upeyerx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 90
+      min: -90
+      max: 90
+      def: 0
+  - hashName: upeye_r
+    hash: -1563467176
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: upeyepy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.013
+      min: -0.013
+      max: 0.013
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: upeyepx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.0115
+      min: -0.0115
+      max: 0.0115
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.0115
+      max: 0.0115
+      def: 0
+  - hashName: lowmouth
+    hash: -782712734
+    property: 2
+    valuesX:
+      val:
+        value: 1.58
+        modifiers:
+        - modifier: 4
+          DNATypeName: lowmouthsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: lowmouthsx
+          modifierValue: 0.73
+      min: 0.85
+      max: 2.31
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1.58
+        modifiers:
+        - modifier: 4
+          DNATypeName: lowmouthsy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: lowmouthsy
+          modifierValue: 1.46
+      min: 0.85
+      max: 2.31
+      def: 0
+  - hashName: lowmouth
+    hash: -782712734
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: lowmouthrx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 50.84
+      min: -50.84
+      max: 50.84
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -50.84
+      max: -360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -50.84
+      max: 50.84
+      def: 0
+  - hashName: lowmouth
+    hash: -782712734
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.00848
+      max: 0.00848
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: lowmouthpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.00848
+      min: -0.00848
+      max: 0.00848
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: lowmouthpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.01
+      min: -0.01
+      max: 0.01
+      def: 0
+  - hashName: upmouth
+    hash: 1895401145
+    property: 2
+    valuesX:
+      val:
+        value: 1.5
+        modifiers:
+        - modifier: 4
+          DNATypeName: upmouthsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: upmouthsx
+          modifierValue: 1.6
+      min: 0.73
+      max: 2.2
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1.5
+        modifiers:
+        - modifier: 4
+          DNATypeName: upmouthsy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: upmouthsy
+          modifierValue: 1.6
+      min: 0.73
+      max: 2.2
+      def: 0
+  - hashName: upmouth
+    hash: 1895401145
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: upmouthrx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 100
+      min: -100
+      max: 100
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: upmouth
+    hash: 1895401145
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.00616
+      max: 0.00616
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: upmouthpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.00616
+      min: -0.00616
+      max: 0.00616
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: upmouthpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.01
+      min: -0.01
+      max: 0.01
+      def: 0
+  - hashName: lipmouth_l
+    hash: -1920068535
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: lipmouth_l
+    hash: -1920068535
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: lipmouth_l
+    hash: -1920068535
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: lipmouth_r
+    hash: 2004953386
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: lipmouth_r
+    hash: 2004953386
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: lipmouth_r
+    hash: 2004953386
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: nosewing_l
+    hash: 963444425
+    property: 2
+    valuesX:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
+      def: 0
+    valuesY:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
+      def: 0
+    valuesZ:
+      val:
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
+      def: 0
+  - hashName: nosewing_l
+    hash: 963444425
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: nosewing_l
+    hash: 963444425
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: 'nosewing_r '
+    hash: -542316944
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: 'nosewing_r '
+    hash: -542316944
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: 'nosewing_r '
+    hash: -542316944
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: nasalnose
+    hash: -1917070985
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: nasalnose
+    hash: -1917070985
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: nasalnose
+    hash: -1917070985
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: tipnose
+    hash: -220584236
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: tipnosesx
+          modifierValue: 0.5
+        - modifier: 0
+          DNATypeName: tipnosesx
+          modifierValue: 0.5
+      min: 1
+      max: 1.7
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: tipnosesy
+          modifierValue: 0.5
+        - modifier: 0
+          DNATypeName: tipnosesy
+          modifierValue: 0.5
+      min: 1
+      max: 1.7
+      def: 0
+  - hashName: tipnose
+    hash: -220584236
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: tipnose
+    hash: -220584236
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: nose_up
+    hash: 1751145829
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: nose_up
+    hash: 1751145829
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: nose_up
+    hash: 1751145829
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: nose_uppx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.011
+      min: -0.011
+      max: 0.011
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: nose_uppy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.0115
+      min: -0.0115
+      max: 0.0115
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: chin
+    hash: 1344700888
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: chinsx
+          modifierValue: 0
+        - modifier: 0
+          DNATypeName: chinsx
+          modifierValue: 0.5
+      min: 1
+      max: 2
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: chinsy
+          modifierValue: 0
+        - modifier: 0
+          DNATypeName: chinsy
+          modifierValue: 0.5
+      min: 1
+      max: 2
+      def: 0
+  - hashName: chin
+    hash: 1344700888
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: chin
+    hash: 1344700888
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: chinpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.02
+      min: -0.02
+      max: 0.02
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: chinpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.01
+      min: -0.01
+      max: 0.01
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.01
+      max: 0.01
+      def: 0
+  - hashName: ear_02_r
+    hash: 2024626915
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: earsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: earsx
+          modifierValue: 0.4
+      min: 0.8
+      max: 1.2
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: earsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: earsx
+          modifierValue: 0.4
+      min: 0.8
+      max: 1.2
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: earsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: earsx
+          modifierValue: 0.4
+      min: 0.8
+      max: 1.2
+      def: 0
+  - hashName: ear_02_r
+    hash: 2024626915
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: earrx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 12.5745
+      min: -12.5745
+      max: 12.5745
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: earrx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 20
+      min: -20
+      max: 20
+      def: 0
+  - hashName: ear_02_r
+    hash: 2024626915
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: earpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.01028
+      min: -0.01028
+      max: 0.01028
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: earpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.00525
+      min: -0.00525
+      max: 0.00525
+      def: 0
+  - hashName: ear_02_l
+    hash: -2103285888
+    property: 2
+    valuesX:
+      val:
+        value: -1
+        modifiers:
+        - modifier: 4
+          DNATypeName: earsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: earsx
+          modifierValue: -0.4
+      min: -1.2
+      max: -0.8
+      def: 0
+    valuesY:
+      val:
+        value: -1
+        modifiers:
+        - modifier: 4
+          DNATypeName: earsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: earsx
+          modifierValue: -0.4
+      min: -1.2
+      max: -0.8
+      def: 0
+    valuesZ:
+      val:
+        value: -1
+        modifiers:
+        - modifier: 4
+          DNATypeName: earsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: earsx
+          modifierValue: -0.4
+      min: -1.2
+      max: -0.8
+      def: 0
+  - hashName: ear_02_l
+    hash: -2103285888
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -12.5745
+      max: 12.5745
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -12.5745
+      max: 12.5745
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: earrx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 20
+      min: -360
+      max: 360
+      def: 0
+  - hashName: ear_02_l
+    hash: -2103285888
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: earpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.01028
+      min: -0.01028
+      max: 0.01028
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: earpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.00525
+      min: -0.00525
+      max: 0.00525
+      def: 0
+  - hashName: mouth
+    hash: -1631232873
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: mouthsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: mouthsx
+          modifierValue: 0.4
+      min: 0.8
+      max: 1.2
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: mouthsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: mouthsx
+          modifierValue: 0.4
+      min: 0.8
+      max: 1.2
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers:
+        - modifier: 4
+          DNATypeName: mouthsx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: mouthsx
+          modifierValue: 0.4
+      min: 0.8
+      max: 1.2
+      def: 0
+  - hashName: mouth
+    hash: -1631232873
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: mouthrx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 25
+      min: -25
+      max: 25
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: mouth
+    hash: -1631232873
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: mouthpx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.008
+      min: -0.008
+      max: 0.008
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: mouthpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.008
+      min: -0.008
+      max: 0.008
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: mouthpy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: skull
+    hash: 1258405475
+    property: 2
+    valuesX:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesY:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+    valuesZ:
+      val:
+        value: 1
+        modifiers: []
+      min: 0
+      max: 5
+      def: 0
+  - hashName: skull
+    hash: 1258405475
+    property: 1
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -360
+      max: 360
+      def: 0
+  - hashName: skull
+    hash: 1258405475
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+  - hashName: eye_r
+    hash: 1291040886
+    property: 2
+    valuesX:
+      val:
+        value: -0.9
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyes
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.6
+      min: -1.2
+      max: -0.6
+      def: 0
+    valuesY:
+      val:
+        value: -0.9
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyes
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.6
+      min: -1.2
+      max: -0.6
+      def: 0
+    valuesZ:
+      val:
+        value: -0.9
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyes
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: eyes
+          modifierValue: -0.6
+      min: -1.2
+      max: -0.6
+      def: 0
+  - hashName: eye_l
+    hash: -1224964843
+    property: 2
+    valuesX:
+      val:
+        value: 0.9
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyes
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: eyes
+          modifierValue: 0.6
+      min: 0.6
+      max: 1.2
+      def: 0
+    valuesY:
+      val:
+        value: 0.9
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyes
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: eyes
+          modifierValue: 0.6
+      min: 0.6
+      max: 1.2
+      def: 0
+    valuesZ:
+      val:
+        value: 0.9
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyes
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: eyes
+          modifierValue: 0.6
+      min: 0.6
+      max: 1.2
+      def: 0
+  - hashName: eye_l
+    hash: -1224964843
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyepx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: -0.0075
+      min: -0.0075
+      max: 0.0075
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyepy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: 
+          modifierValue: 0.007
+      min: -0.007
+      max: 0.007
+      def: 0
+  - hashName: eye_r
+    hash: 1291040886
+    property: 0
+    valuesX:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyepx
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: eyepx
+          modifierValue: -0.0075
+      min: -0.0075
+      max: 0.0075
+      def: 0
+    valuesY:
+      val:
+        value: 0
+        modifiers: []
+      min: -0.1
+      max: 0.1
+      def: 0
+    valuesZ:
+      val:
+        value: 0
+        modifiers:
+        - modifier: 4
+          DNATypeName: eyepy
+          modifierValue: 0
+        - modifier: 2
+          DNATypeName: eyepy
+          modifierValue: -0.007
+      min: -0.007
+      max: 0.007
+      def: 0
+  overallModifiersEnabled: 1
+  overallScale: 1
+  tightenBounds: 1
+  boundsAdjust: {x: 0, y: 0, z: 0}
+  radiusAdjust: {x: 0.23, y: 0}
+  massModifiers: {x: 46, y: 26, z: 26}
+  startingPose: {fileID: 0}
+  startingPoseWeight: 1

@@ -1,0 +1,148 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class UIPartPanel : MonoBehaviour {
+    public TreeViewControl TreeView;
+    public void InitTreeView()
+    {
+        //生成数据
+        List<TreeViewData> datas = new List<TreeViewData>();
+        //0~5大类
+        TreeViewData data = new TreeViewData();
+        data.Name = "icon_lian";
+        data.ParentID = -1;
+        data.index = 0;
+        data.ePart = eUMAPart.UMA_Face;
+        data.eOperation = eOperationPart.OP_None;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "icon_mei";
+        data.ParentID = -1;
+        data.index = 1;
+        data.ePart = eUMAPart.UMA_Eyebrow;
+        data.eOperation = eOperationPart.OP_None;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "icon_yan";
+        data.ParentID = -1;
+        data.index = 2;
+        data.ePart = eUMAPart.UMA_Eye;
+        data.eOperation = eOperationPart.OP_None;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "icon_bi";
+        data.ParentID = -1;
+        data.index = 3;
+        data.ePart = eUMAPart.UMA_Nose;
+        data.eOperation = eOperationPart.OP_None;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "icon_zui";
+        data.ParentID = -1;
+        data.index = 4;
+        data.ePart = eUMAPart.UMA_Mouth;
+        data.eOperation = eOperationPart.OP_None;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "icon_toufa";
+        data.ParentID = -1;
+        data.index = 5;
+        data.ePart = eUMAPart.UMA_Hair;
+        data.eOperation = eOperationPart.OP_None;
+        datas.Add(data);
+
+        data = new TreeViewData();
+        data.Name = "调整";
+        data.ParentID = 0;
+        data.index = 6;
+        data.ePart = eUMAPart.UMA_Face;
+        data.eOperation = eOperationPart.OP_Adjustment;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "额纹";
+        data.ParentID = 0;
+        data.index = 7;
+        data.ePart = eUMAPart.UMA_Face;
+        data.eOperation = eOperationPart.OP_BrowFigure;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "面纹";
+        data.ParentID = 0;
+        data.index = 8;
+        data.ePart = eUMAPart.UMA_Face;
+        data.eOperation = eOperationPart.OP_Shape;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "调整";
+        data.ParentID = 1;
+        data.index = 9;
+        data.ePart = eUMAPart.UMA_Eyebrow;
+        data.eOperation = eOperationPart.OP_Adjustment;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "眉形";
+        data.ParentID = 1;
+        data.index = 10;
+        data.ePart = eUMAPart.UMA_Eyebrow;
+        data.eOperation = eOperationPart.OP_Shape;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "调整";
+        data.ParentID = 2;
+        data.index = 11;
+        data.ePart = eUMAPart.UMA_Eye;
+        data.eOperation = eOperationPart.OP_Adjustment;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "眼影";
+        data.ParentID = 2;
+        data.index = 12;
+        data.ePart = eUMAPart.UMA_Eye;
+        data.eOperation = eOperationPart.OP_BrowFigure;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "美瞳";
+        data.ParentID = 2;
+        data.index = 13;
+        data.ePart = eUMAPart.UMA_Eye;
+        data.eOperation = eOperationPart.OP_Shape;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "调整";
+        data.ParentID = 3;
+        data.index = 14;
+        data.ePart = eUMAPart.UMA_Nose;
+        data.eOperation = eOperationPart.OP_Adjustment;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "调整";
+        data.ParentID = 4;
+        data.index = 15;
+        data.ePart = eUMAPart.UMA_Mouth;
+        data.eOperation = eOperationPart.OP_Adjustment;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "口红";
+        data.ParentID = 4;
+        data.index = 16;
+        data.ePart = eUMAPart.UMA_Mouth;
+        data.eOperation = eOperationPart.OP_BrowFigure;
+        datas.Add(data);
+        data = new TreeViewData();
+        data.Name = "发型";
+        data.ParentID = 5;
+        data.index = 17;
+        data.ePart = eUMAPart.UMA_Hair;
+        data.eOperation = eOperationPart.OP_Shape;
+        datas.Add(data);
+       
+        //指定数据源
+        TreeView.Data = datas;
+        //重新生成树形菜单
+        TreeView.GenerateTreeView();
+        //刷新树形菜单
+        TreeView.RefreshTreeView();
+    }
+}

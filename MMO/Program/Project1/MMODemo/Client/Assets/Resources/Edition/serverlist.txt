@@ -1,0 +1,2 @@
+﻿SvrID	SvrName	IP	PORT	AuthIP	X	X	X	Version	Order	OldSvrID
+1	新白娘子传奇	192.168.138.11	8899	http://192.168.138.11:80/	1	1	http://221.237.157.134:8089/static/product/wl/	1	1	1
