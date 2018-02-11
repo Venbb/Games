@@ -309,24 +309,24 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesY:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesZ:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
   - hashName: cheekbone_l
     hash: -715924316
@@ -453,24 +453,24 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesY:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesZ:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
   - hashName: chin_03_l
     hash: -1185160633
@@ -597,24 +597,24 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesY:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesZ:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
   - hashName: chin_02_l
     hash: -1197897616
@@ -748,7 +748,7 @@ MonoBehaviour:
           modifierValue: 0.5
         - modifier: 2
           DNATypeName: cheek_02sx
-          modifierValue: 2
+          modifierValue: -2
       min: -3
       max: -1
       def: 0
@@ -768,7 +768,7 @@ MonoBehaviour:
           modifierValue: 0.5
         - modifier: 2
           DNATypeName: cheek_02sy
-          modifierValue: 2
+          modifierValue: -2
       min: -3
       max: -1
       def: 0
@@ -1083,36 +1083,24 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1
-        modifiers:
-        - modifier: 4
-          DNATypeName: tailbrowsx
-          modifierValue: 0
-        - modifier: 0
-          DNATypeName: tailbrowsx
-          modifierValue: 0.5
-      min: 1
-      max: 2
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
       def: 0
     valuesY:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesZ:
       val:
-        value: 1
-        modifiers:
-        - modifier: 4
-          DNATypeName: tailbrowsy
-          modifierValue: 0
-        - modifier: 0
-          DNATypeName: tailbrowsy
-          modifierValue: 0.5
-      min: 1
-      max: 2
+        value: -1
+        modifiers: []
+      min: -1
+      max: 1
       def: 0
   - hashName: tailbrow_l
     hash: 1500556772
@@ -1180,13 +1168,7 @@ MonoBehaviour:
     valuesX:
       val:
         value: 1
-        modifiers:
-        - modifier: 4
-          DNATypeName: tailbrowsx
-          modifierValue: 0
-        - modifier: 0
-          DNATypeName: tailbrowsx
-          modifierValue: 0.5
+        modifiers: []
       min: 1
       max: 2
       def: 0
@@ -1200,13 +1182,7 @@ MonoBehaviour:
     valuesZ:
       val:
         value: 1
-        modifiers:
-        - modifier: 4
-          DNATypeName: tailbrowsy
-          modifierValue: 0
-        - modifier: 0
-          DNATypeName: tailbrowsy
-          modifierValue: 0.5
+        modifiers: []
       min: 1
       max: 2
       def: 0
@@ -1275,24 +1251,24 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesY:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesZ:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
   - hashName: brow_l
     hash: 1009797429
@@ -1515,24 +1491,24 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesY:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesZ:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
   - hashName: endeye_l
     hash: -988055222
@@ -1587,24 +1563,24 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesY:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesZ:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
   - hashName: endeye_r
     hash: 1058292777
@@ -1731,24 +1707,24 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesY:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesZ:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
   - hashName: canthus_r
     hash: -190801371
@@ -2170,7 +2146,7 @@ MonoBehaviour:
           modifierValue: 0
         - modifier: 2
           DNATypeName: lowmouthsx
-          modifierValue: 0.73
+          modifierValue: 1.46
       min: 0.85
       max: 2.31
       def: 0
@@ -2265,14 +2241,14 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1.5
+        value: 1.46
         modifiers:
         - modifier: 4
           DNATypeName: upmouthsx
           modifierValue: 0
         - modifier: 2
           DNATypeName: upmouthsx
-          modifierValue: 1.6
+          modifierValue: 1.47
       min: 0.73
       max: 2.2
       def: 0
@@ -2285,14 +2261,14 @@ MonoBehaviour:
       def: 0
     valuesZ:
       val:
-        value: 1.5
+        value: 1.46
         modifiers:
         - modifier: 4
           DNATypeName: upmouthsy
           modifierValue: 0
         - modifier: 2
           DNATypeName: upmouthsy
-          modifierValue: 1.6
+          modifierValue: 1.47
       min: 0.73
       max: 2.2
       def: 0
@@ -2367,24 +2343,24 @@ MonoBehaviour:
     property: 2
     valuesX:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesY:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
     valuesZ:
       val:
-        value: 1
+        value: -1
         modifiers: []
-      min: 0
-      max: 5
+      min: -1
+      max: 1
       def: 0
   - hashName: lipmouth_l
     hash: -1920068535
@@ -2728,13 +2704,7 @@ MonoBehaviour:
     valuesX:
       val:
         value: 1
-        modifiers:
-        - modifier: 4
-          DNATypeName: tipnosesx
-          modifierValue: 0.5
-        - modifier: 0
-          DNATypeName: tipnosesx
-          modifierValue: 0.5
+        modifiers: []
       min: 1
       max: 1.7
       def: 0
@@ -2748,13 +2718,7 @@ MonoBehaviour:
     valuesZ:
       val:
         value: 1
-        modifiers:
-        - modifier: 4
-          DNATypeName: tipnosesy
-          modifierValue: 0.5
-        - modifier: 0
-          DNATypeName: tipnosesy
-          modifierValue: 0.5
+        modifiers: []
       min: 1
       max: 1.7
       def: 0
@@ -2909,16 +2873,22 @@ MonoBehaviour:
     valuesY:
       val:
         value: 1
-        modifiers: []
-      min: 0
-      max: 5
+        modifiers:
+        - modifier: 4
+          DNATypeName: chinsx
+          modifierValue: 0
+        - modifier: 0
+          DNATypeName: chinsx
+          modifierValue: 0.5
+      min: 1
+      max: 2
       def: 0
     valuesZ:
       val:
         value: 1
         modifiers:
         - modifier: 4
-          DNATypeName: chinsy
+          DNATypeName: chinsx
           modifierValue: 0
         - modifier: 0
           DNATypeName: chinsy

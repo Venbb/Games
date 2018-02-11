@@ -1,0 +1,8 @@
+﻿{
+    "Url": "192.168.138.11",
+    "BakUrl": "192.168.138.11",
+    "SvrLst": "/static/serverlist.txt",
+    "Update": "/static/updatever.txt",
+    "Ping": "192.168.138.11",
+    "Permission": "192.168.138.11/permission",
+}

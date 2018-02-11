@@ -58,22 +58,24 @@ public class TransparentHandler : XMonoSingleton<TransparentHandler>
                 alphaCheckObjs.AddRange(render.materials);
         }
         Material material;
-        //从暂存移除当前
+        //透明起来
         for (int i = 0; i < alphaCheckObjs.Count; i++)
         {
             material = alphaCheckObjs[i];
-            if (alphaCheckCaches.Contains(material))
-            {
-                alphaCheckCaches.Remove(material);
-            }
             RenderingMode rm = GetRenderingMode(material.GetTag("RenderType", false));
             if (!rm.Equals(RenderingMode.None))
             {
-                renderTypeCaches[material] = rm;
-                //透明起来
-                SetMaterialRenderingMode(material, RenderingMode.Transparent);
+                //shader必须要支持有_Color来控制贴图的透明通道
                 if (material.HasProperty("_Color"))
                 {
+                    //从暂存移除当前
+                    if (alphaCheckCaches.Contains(material))
+                    {
+                        alphaCheckCaches.Remove(material);
+                    }
+                    renderTypeCaches[material] = rm;
+                    SetMaterialRenderingMode(material, RenderingMode.Transparent);
+
                     Color color = material.color;
                     color.a = 0f;
                     material.SetColor("_Color", color);
@@ -109,7 +111,7 @@ public class TransparentHandler : XMonoSingleton<TransparentHandler>
             case "Transparent":
                 return RenderingMode.Transparent;
             case "TransparentCutout":
-                //return RenderingMode.TransparentCutout;
+                return RenderingMode.TransparentCutout;
             default:
                 return RenderingMode.None;
         }
@@ -121,7 +123,7 @@ public class TransparentHandler : XMonoSingleton<TransparentHandler>
         Cutout,//镂空 透明度不是0%就是100%，不存在半透明的区域。 如：破布
         Fade,//隐现 与Transparent的区别为高光反射会随着透明度而消失。 如：物体隐去
         Transparent,//透明 适用于像彩色玻璃一样的半透明物体，高光反射不会随透明而消失。 如：玻璃
-        //TransparentCutout//透明镂空
+        TransparentCutout//透明镂空
     }
     public void SetMaterialRenderingMode(Material material, RenderingMode renderingMode)
     {
@@ -155,6 +157,15 @@ public class TransparentHandler : XMonoSingleton<TransparentHandler>
                 material.renderQueue = 3000;
                 break;
             case RenderingMode.Transparent:
+                material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+                material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+                material.SetInt("_ZWrite", 1);//这个设置成0是关闭1是开启，关闭后不会将模型深度写到深度缓冲，会导致模型渲染深度出现问题
+                material.DisableKeyword("_ALPHATEST_ON");
+                material.DisableKeyword("_ALPHABLEND_ON");
+                material.EnableKeyword("_ALPHAPREMULTIPLY_ON");
+                material.renderQueue = 3000;
+                break;
+            case RenderingMode.TransparentCutout:
                 material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
                 material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
                 material.SetInt("_ZWrite", 1);//这个设置成0是关闭1是开启，关闭后不会将模型深度写到深度缓冲，会导致模型渲染深度出现问题

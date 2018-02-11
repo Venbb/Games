@@ -5,6 +5,7 @@
 
 Shader "Shader Forge/CC/StaticModelTransparent_Wind" {
     Properties {
+		_Color("Color", Color) = (1,1,1,1)
         _node_1173 ("node_1173", 2D) = "white" {}
         _node_6195 ("node_6195", Color) = (0.5,0.5,0.5,1)
         _frequency ("frequency", Range(0, 10)) = 0
@@ -36,6 +37,7 @@ Shader "Shader Forge/CC/StaticModelTransparent_Wind" {
             #pragma target 3.0
             uniform float4 _LightColor0;
             uniform float4 _node_6195;
+			uniform float4 _Color;
             uniform sampler2D _node_1173; uniform float4 _node_1173_ST;
             uniform float _frequency;
             uniform float _wavelength;
@@ -74,7 +76,7 @@ Shader "Shader Forge/CC/StaticModelTransparent_Wind" {
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
                 float3 normalDirection = i.normalDir;
                 half4 _node_1173_var = tex2D(_node_1173,TRANSFORM_TEX(i.uv0, _node_1173));
-                clip(_node_1173_var.a - 0.5);
+                clip(_node_1173_var.a*_Color.a - 0.5);
                 float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
                 float3 lightColor = _LightColor0.rgb;
 ////// Lighting:
@@ -116,6 +118,7 @@ Shader "Shader Forge/CC/StaticModelTransparent_Wind" {
             #pragma target 3.0
             uniform float4 _LightColor0;
             uniform float4 _node_6195;
+			uniform float4 _Color;
             uniform sampler2D _node_1173; uniform float4 _node_1173_ST;
             uniform float _frequency;
             uniform float _wavelength;
@@ -154,7 +157,7 @@ Shader "Shader Forge/CC/StaticModelTransparent_Wind" {
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
                 float3 normalDirection = i.normalDir;
                 half4 _node_1173_var = tex2D(_node_1173,TRANSFORM_TEX(i.uv0, _node_1173));
-                clip(_node_1173_var.a - 0.5);
+                clip(_node_1173_var.a*_Color.a - 0.5);
                 float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
                 float3 lightColor = _LightColor0.rgb;
 ////// Lighting:
@@ -195,6 +198,7 @@ Shader "Shader Forge/CC/StaticModelTransparent_Wind" {
             uniform sampler2D _node_1173; uniform float4 _node_1173_ST;
             uniform float _frequency;
             uniform float _wavelength;
+			uniform float4 _Color;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float2 texcoord0 : TEXCOORD0;
@@ -217,7 +221,7 @@ Shader "Shader Forge/CC/StaticModelTransparent_Wind" {
                 float isFrontFace = ( facing >= 0 ? 1 : 0 );
                 float faceSign = ( facing >= 0 ? 1 : -1 );
                 half4 _node_1173_var = tex2D(_node_1173,TRANSFORM_TEX(i.uv0, _node_1173));
-                clip(_node_1173_var.a - 0.5);
+                clip(_node_1173_var.a*_Color.a - 0.5);
                 SHADOW_CASTER_FRAGMENT(i)
             }
             ENDCG
